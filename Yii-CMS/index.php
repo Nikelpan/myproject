@@ -2,7 +2,7 @@
 mb_internal_encoding('utf-8');
 define('LOCAL', $_SERVER['REMOTE_ADDR'] == '127.0.0.1');
 
-// Change the following paths if necessary
+// Please Change the following paths if necessary
 $config=dirname(__FILE__).'/protected/config/main.php';
 
 if (is_dir('yii'))
